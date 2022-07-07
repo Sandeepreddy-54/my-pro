@@ -4,7 +4,7 @@ trigger:
 - main
 
 pool:
-  name: 'Default'
+  name: 'Azure Pipelines'
 
 steps:
   - task: CopyFiles@2
