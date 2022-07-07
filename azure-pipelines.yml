@@ -1,10 +1,10 @@
 name: $(BuildDefinitionName)_$(date:yyyyMMdd)$(rev:.r)
 
 trigger: 
-- master
+- main
 
 pool:
-  name: 'OptumDotNet'
+  name: 'Default'
 
 steps:
   - task: CopyFiles@2
